@@ -1,0 +1,14 @@
+{
+	"projects": {
+		"default": "cenahealth"
+	},
+	"targets": {
+		"cenahealth": {
+			"hosting": {
+				"public-site": [
+					"cenahealth"
+				]
+			}
+		}
+	}
+}
