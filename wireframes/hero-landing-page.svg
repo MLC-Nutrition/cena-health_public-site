@@ -1,0 +1,101 @@
+<svg width="1440" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1440" height="900" fill="#FFFFFF"/>
+
+  <!-- Header/Navigation -->
+  <rect x="0" y="0" width="1440" height="80" fill="#F8F9FA"/>
+  <text x="80" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1A1A1A">Cena Health</text>
+
+  <!-- Nav Items -->
+  <text x="1100" y="50" font-family="Arial, sans-serif" font-size="14" fill="#4A4A4A">Solutions</text>
+  <text x="1200" y="50" font-family="Arial, sans-serif" font-size="14" fill="#4A4A4A">Technology</text>
+  <text x="1300" y="50" font-family="Arial, sans-serif" font-size="14" fill="#4A4A4A">Contact</text>
+
+  <!-- Main Hero Section -->
+  <g id="hero-content">
+    <!-- Headline Section -->
+    <text x="80" y="180" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#1A1A1A">
+      We're not a food vendor.
+    </text>
+    <text x="80" y="240" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#1A1A1A">
+      We're the missing infrastructure.
+    </text>
+
+    <!-- Subheadline -->
+    <text x="80" y="300" font-family="Arial, sans-serif" font-size="20" fill="#4A4A4A">
+      Transform SDOH initiatives from cost centers into revenue-generating
+    </text>
+    <text x="80" y="330" font-family="Arial, sans-serif" font-size="20" fill="#4A4A4A">
+      programs with proven clinical impact
+    </text>
+
+    <!-- Hero Metrics Grid -->
+    <g id="metrics">
+      <!-- Metric 1 -->
+      <rect x="80" y="380" width="280" height="100" fill="#F0F4F8" stroke="#E1E8ED" stroke-width="1" rx="4"/>
+      <text x="100" y="420" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2C5282">30%</text>
+      <text x="100" y="450" font-family="Arial, sans-serif" font-size="14" fill="#4A4A4A">reduction in hospitalizations</text>
+
+      <!-- Metric 2 -->
+      <rect x="380" y="380" width="280" height="100" fill="#F0F4F8" stroke="#E1E8ED" stroke-width="1" rx="4"/>
+      <text x="400" y="420" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2C5282">25%</text>
+      <text x="400" y="450" font-family="Arial, sans-serif" font-size="14" fill="#4A4A4A">fewer ER visits</text>
+
+      <!-- Metric 3 -->
+      <rect x="680" y="380" width="280" height="100" fill="#F0F4F8" stroke="#E1E8ED" stroke-width="1" rx="4"/>
+      <text x="700" y="420" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2C5282">$3,200</text>
+      <text x="700" y="450" font-family="Arial, sans-serif" font-size="14" fill="#4A4A4A">annual savings per patient</text>
+
+      <!-- Metric 4 -->
+      <rect x="980" y="380" width="280" height="100" fill="#F0F4F8" stroke="#E1E8ED" stroke-width="1" rx="4"/>
+      <text x="1000" y="420" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2C5282">60-90 days</text>
+      <text x="1000" y="450" font-family="Arial, sans-serif" font-size="14" fill="#4A4A4A">implementation timeline</text>
+    </g>
+
+    <!-- Navigation Path Section -->
+    <g id="navigation-path">
+      <!-- Section Header -->
+      <text x="80" y="550" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#1A1A1A">
+        Where is your organization in its nutrition care journey?
+      </text>
+
+      <!-- Path Option 1 -->
+      <rect x="80" y="580" width="360" height="120" fill="#FFFFFF" stroke="#2C5282" stroke-width="2" rx="6"/>
+      <text x="100" y="615" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2C5282">Just Starting</text>
+      <text x="100" y="645" font-family="Arial, sans-serif" font-size="14" fill="#4A4A4A">Build SDOH Infrastructure</text>
+      <text x="100" y="670" font-family="Arial, sans-serif" font-size="12" fill="#718096">60-90 day turnkey implementation</text>
+      <text x="380" y="650" font-family="Arial, sans-serif" font-size="24" fill="#2C5282">→</text>
+
+      <!-- Path Option 2 -->
+      <rect x="480" y="580" width="360" height="120" fill="#FFFFFF" stroke="#2C5282" stroke-width="2" rx="6"/>
+      <text x="500" y="615" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2C5282">Have Partnerships</text>
+      <text x="500" y="645" font-family="Arial, sans-serif" font-size="14" fill="#4A4A4A">Add Revenue Infrastructure</text>
+      <text x="500" y="670" font-family="Arial, sans-serif" font-size="12" fill="#718096">Layer clinical data over existing programs</text>
+      <text x="780" y="650" font-family="Arial, sans-serif" font-size="24" fill="#2C5282">→</text>
+
+      <!-- Path Option 3 -->
+      <rect x="880" y="580" width="360" height="120" fill="#FFFFFF" stroke="#2C5282" stroke-width="2" rx="6"/>
+      <text x="900" y="615" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2C5282">Scaling Programs</text>
+      <text x="900" y="645" font-family="Arial, sans-serif" font-size="14" fill="#4A4A4A">Integrate Advanced Automation</text>
+      <text x="900" y="670" font-family="Arial, sans-serif" font-size="12" fill="#718096">AI-powered EHR integration + automation</text>
+      <text x="1180" y="650" font-family="Arial, sans-serif" font-size="24" fill="#2C5282">→</text>
+    </g>
+
+    <!-- Secondary Navigation -->
+    <g id="secondary-nav">
+      <rect x="80" y="740" width="240" height="60" fill="#2C5282" rx="4"/>
+      <text x="130" y="775" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">For Investors →</text>
+
+      <rect x="340" y="740" width="240" height="60" fill="#FFFFFF" stroke="#2C5282" stroke-width="2" rx="4"/>
+      <text x="365" y="775" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#2C5282">For Payers →</text>
+    </g>
+  </g>
+
+  <!-- Visual placeholder for hero image/illustration -->
+  <rect x="1020" y="120" width="340" height="280" fill="#E1E8ED" stroke="#CBD5E0" stroke-width="2" rx="4"/>
+  <text x="1090" y="270" font-family="Arial, sans-serif" font-size="14" fill="#718096">[Infrastructure Visual]</text>
+
+  <!-- Grid lines for reference (optional - can be removed) -->
+  <line x1="80" y1="0" x2="80" y2="900" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+  <line x1="1360" y1="0" x2="1360" y2="900" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+</svg>

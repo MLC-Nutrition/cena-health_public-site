@@ -6,11 +6,9 @@
 
 ## 1. Hero / Landing Page
 
-**Primary Message:** Healthcare infrastructure for prescription-based nutrition care
-
 ### Key Elements:
 
-- **Headline:** We're not a food vendor. We're the missing infrastructure.
+- **Headline:** Healthcare infrastructure for prescription-based nutrition care
 - **Subheadline:** Transform SDOH initiatives from cost centers into revenue-generating programs with proven clinical impact
 - **Hero Metrics:**
   - 30% reduction in hospitalizations
