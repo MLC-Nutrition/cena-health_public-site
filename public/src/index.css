@@ -792,6 +792,10 @@
     height: 37px;
   }
 
+  .h-\[38px\] {
+    height: 38px;
+  }
+
   .h-\[45\.83\%\] {
     height: 45.83%;
   }
@@ -1038,6 +1042,10 @@
 
   .w-\[208px\] {
     width: 208px;
+  }
+
+  .w-\[269px\] {
+    width: 269px;
   }
 
   .w-full {
@@ -1450,6 +1458,10 @@
 
   .text-center {
     text-align: center;
+  }
+
+  .\[text-indent\:calc\(-8\.64px\)\] {
+    text-indent: -8.64px;
   }
 
   .font-\[Lora\] {

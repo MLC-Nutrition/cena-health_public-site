@@ -1,4 +1,5 @@
 import svgPaths from "../../imports/svg-3i8ev9z1ed";
+import AthenahealthLogoWine from "../../imports/AthenahealthLogoWine1";
 import imgImage51 from "figma:asset/c3a51e5065e7968a033c9115de4984f010a8aa58.png";
 import imgImage50 from "figma:asset/8eaaeb9d6d801ef872cb9826b2e972071cdaf82d.png";
 import imgImage49 from "figma:asset/2af4124835d0606ee34cffc969fa089f750773ba.png";
@@ -223,12 +224,21 @@ export function LogoMarquee() {
        <div className="flex animate-marquee w-max">
         <div className="flex gap-[54px] items-center pr-[54px]">
           <LogoList />
+          <div className="h-[38px] w-[269px] relative shrink-0">
+            <AthenahealthLogoWine />
+          </div>
         </div>
         <div className="flex gap-[54px] items-center pr-[54px]">
           <LogoList />
+          <div className="h-[38px] w-[269px] relative shrink-0">
+            <AthenahealthLogoWine />
+          </div>
         </div>
         <div className="flex gap-[54px] items-center pr-[54px]">
-           <LogoList />
+          <LogoList />
+          <div className="h-[38px] w-[269px] relative shrink-0">
+            <AthenahealthLogoWine />
+          </div>
         </div>
       </div>
       <style>{`

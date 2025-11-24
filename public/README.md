@@ -1,7 +1,7 @@
 
-  # Build Design
+  # public site - investors and partners
 
-  This is a code bundle for Build Design. The original project is available at https://www.figma.com/design/Bmd22GpP2BCbuVuX7X0njz/Build-Design.
+  This is a code bundle for public site - investors and partners. The original project is available at https://www.figma.com/design/Bmd22GpP2BCbuVuX7X0njz/public-site---investors-and-partners.
 
   ## Running the code
 

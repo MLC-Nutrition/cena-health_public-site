@@ -794,7 +794,7 @@ const testimonials: TestimonialData[] = [
     role: "Director of Human Centered Care, Hartford HealthCare Corp.",
     image: imgImage60,
     quote:
-      '"These nutritious and restaurant grade meals will be able to be delivered anywhere in CT. Everyone knows the benefit of a good meal. It\'s a way to show how much Hartford HealthCare cares about their recovery."',
+      '"These nutritious meals are delivered to help patients live their most healthy lives. It\'s a way to show how much Hartford HealthCare cares about their recovery."',
   },
   {
     org: "UCONN Health",
@@ -804,7 +804,7 @@ const testimonials: TestimonialData[] = [
       "Associate Professor, Department of Allied Health Sciences",
     image: imgImage61,
     quote:
-      '"It has been a pleasure to work with Vanessa Sena and her team at My Local Chefs on a research project. She has a clear passion for promoting healthy eating and reducing diet-related health disparities, and a strong vision for how to collaborate with health systems, community organizations, and researchers to effect change in patients\' lives."',
+      '"It has been a pleasure to work with Vanessa and the research team at Cena Health. She has a clear passion for promoting healthy eating and reducing diet-related chronic illnesses."',
   },
   {
     org: "Hartford HealthCare",
@@ -812,7 +812,7 @@ const testimonials: TestimonialData[] = [
     role: "Vice President, Community Health and Engagement, Hartford HealthCare Corp.",
     image: imgImage62,
     quote:
-      '"Improving health outcomes, starts with improving access to quality foods and nutrition. My Local Chefs, in providing access to produce, quality foods, and meals high in nutrition combined with delivery of the same helps address those important points to help better address health inequities that adversely impact the most underserved among us."',
+      '"Improving health outcomes starts with improving access to quality foods. Our partnership with Cena Health helps us better address health inequalities."',
   },
   {
     org: "UCONN Health",
@@ -821,21 +821,21 @@ const testimonials: TestimonialData[] = [
     subRole: "Associate Professor of Obstetrics and Gynecology",
     image: imgImage63,
     quote:
-      '"Partnering with my local chefs on providing nutritious meals to our pregnant moms to improve pregnancy and neonatal outcomes has been truly invigorating. Together, we are nourishing our future and our community\'s heart."',
+      '"Partnering with local chefs on providing nutritious meals to our pregnant mothers has been truly invigorating, nourishing our future and community\'s heart."',
   },
   {
     org: "Patient",
     name: "Karin",
-    role: "Vice President, Community Health and Engagement, Hartford HealthCare Corp.",
+    role: "",
     quote:
-      '"I am trying to lose weight (85 lbs to go…) & try to manage my diabetes (I\'m not doing good with that, yet). There is NOTHING on this menu that doesn’t look great, especially compared to what I have been eating. I can’t cook so I just reheat things or make the very basics in the microwave I have. None of those things are diabetic friendly though. Since I got sick I have had a very hard time doing many things, I have bad arthritis throughout my body, chronic fatigue syndrome, almost daily migraines, diabetes, carpal tunnel in both wrists, depression, anxiety & panic disorder, & PTSD. There’s more, but you get the picture. I’ve had 2 major surgeries this summer & better in some ways, thankfully. I’m on Social Security Disability & that doesn’t pay all my bills."',
+      '"I am trying to lose weight and manage my diabetes through quality food. I can\'t cook so Cena Health has been a blessing - their diabetic-friendly meals save me time and effort."',
   },
   {
     org: "Patient",
     name: "Effrin",
-    role: "Director of Human Centered Care, Hartford HealthCare Corp.",
+    role: "",
     quote:
-      '"I am very grateful for the service we provide. It has been a blessing to be a part of the program. The food was healthy and tasted great. Even had enough to save for extra meals. Improved nutritional availability that he has access to. and meals made it easier. Gives me a feeling of being at a restaurant and eating out. Highlight of the week."',
+      '"I am very grateful for the service we provide. This nutritional availability gives me a feeling of being at a restaurant and getting out."',
   },
 ];
 
@@ -847,12 +847,14 @@ function TestimonialCard({ data }: { data: TestimonialData }) {
           <p className="font-body font-bold text-[#4b3c31] text-[13.33px] tracking-[1.4px] uppercase">
             {data.org}
           </p>
-          <p className="font-heading font-bold text-[#100501] text-[23.04px] leading-[32px]">
+          <p className="font-heading font-semibold text-[#42351f] text-[23.04px] leading-[32px]">
             {data.name}
           </p>
-          <p className="font-body font-bold text-[#4b3c31] text-[13.33px] tracking-[1.4px] uppercase">
-            {data.role}
-          </p>
+          {data.role && (
+            <p className="font-body font-bold text-[#4b3c31] text-[13.33px] tracking-[1.4px] uppercase">
+              {data.role}
+            </p>
+          )}
           {data.subRole && (
             <p className="font-body font-bold text-[#958579] text-[13.33px] tracking-[1.4px] uppercase">
               {data.subRole}
@@ -869,7 +871,7 @@ function TestimonialCard({ data }: { data: TestimonialData }) {
           </div>
         )}
       </div>
-      <p className="font-body font-normal text-[#100501] text-[19.2px] leading-[1.21] tracking-[0.24px] whitespace-pre-wrap">
+      <p className="font-body font-normal text-[#100501] text-[19.2px] leading-[1.21] tracking-[0.24px] whitespace-pre-wrap [text-indent:calc(-8.64px)]">
         {data.quote}
       </p>
     </div>
